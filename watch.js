@@ -22,3 +22,9 @@ document.getElementById('reset').addEventListener('click',function(){
 
 })
 
+// ######################################
+
+document.getElementById('ShowDate').addEventListener('click',()=>{
+    const date=new Date()
+document.getElementById('date').innerHTML=date
+})
